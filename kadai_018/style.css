@@ -54,19 +54,19 @@
   width: 400px;
   height: 100px;
   background-color: #e5dcf0;
-  position: relative;
 }
 
 #bottom-child01 {
+  position: relative;
   left: 0;
 }
 
 #bottom-child02 {
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  left: 200px;
 }
 
 #bottom-child03 {
-  left: 100%;
-  transform: translateX(-100%);
+  position: relative;
+  left: 400px;
 }
